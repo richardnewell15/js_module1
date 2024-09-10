@@ -3,6 +3,13 @@ var globalVar = "I'm a global variable";
 let globalLet = "I'm also global, but scoped with let";
 const globalConst = "I'm a global constant";
 
+  let letRichard = "Richard let";
+  const constRichard = "Richard const";
+  var varRichard = "Richard var";
+
+console.log(letRichard);
+console.log(constRichard);
+console.log(varRichard);
 
 {
 // Block scope
